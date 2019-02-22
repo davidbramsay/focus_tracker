@@ -1,0 +1,34 @@
+{
+  "name": "time_track_data_testing",
+  "version": "1.0.0",
+  "description": "interaction with tracking chrome extension backend",
+  "main": "download_data.js",
+  "dependencies": {
+    "async": "^2.6.2",
+    "inquirer": "^6.2.2",
+    "mathjs": "^5.5.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dramsay9/focus_tracker.git"
+  },
+  "keywords": [
+    "focus",
+    "attention",
+    "tracking",
+    "computer",
+    "usage",
+    "statistics"
+  ],
+  "author": "David Ramsay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dramsay9/focus_tracker/issues"
+  },
+  "homepage": "https://github.com/dramsay9/focus_tracker#readme"
+}
