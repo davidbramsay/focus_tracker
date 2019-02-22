@@ -1,0 +1,39 @@
+{
+  "name": "window",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "action": {
+      "type": "string",
+      "required": true
+    },
+    "actionWindowId": {
+      "type": "number",
+      "required": true
+    },
+    "info": {
+      "type": [
+        "object"
+      ]
+    },
+    "timestamp": {
+      "type": "date",
+      "required": true,
+      "default": "$now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}

@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "idle": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "appUser": {
+    "dataSource": "mongoDS",
+    "public": true
+  },
+  "focus": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "displays": {
+    "dataSource": "mongoDS",
+    "public": false
+  },
+  "window": {
+    "dataSource": "mongoDS",
+    "public": false
+  }
+}
