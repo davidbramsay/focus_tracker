@@ -16,4 +16,5 @@
 .strong-pm
 coverage
 node_modules
+chrome_extension/node_models
 npm-debug.log

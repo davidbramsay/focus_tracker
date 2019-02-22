@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "key":  "oddgohendlaeglecelefalndhjdmncha",
+  "name": "Browsing Tracker",
+  "version": "0.0.1",
+  "description": "Track and log browsing activity using chrome-track-activity",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action":{
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "idle",
+    "identity",
+    "system.display",
+    "notifications",
+    "https://feedback.media.mit.edu/*"
+
+  ],
+ "icons": { "128": "eye_icon.png" }
+}
